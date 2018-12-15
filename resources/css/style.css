@@ -344,11 +344,11 @@ header{
 
 /*---testimonial---*/
 
-.testimonialImg{
+/*.testimonialImg{
     background: url(img/home-header.jpg);
     background-size:cover;
     background-position:center;
-}
+}*/
 
 .bgWhite{
     background-color: #fff;
