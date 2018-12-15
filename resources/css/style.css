@@ -378,11 +378,6 @@ header{
     color: rgba(42,43,47,0.8);
 }
 
-.testi-info p:before,
-.testi-info p:after{
-    content: '"';
-}
-
 .testi-info p{
     padding-top: 8px;
 }
