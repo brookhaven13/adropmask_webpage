@@ -7,9 +7,24 @@
         text-align: center;
     }
 
-    .map {
-        width: 104%;
+        /*--navbar--*/
+   .nav-row {
+        padding: 10px 15px;
     }
+
+    .navbar-nav li {
+        font-size: 18px;
+        margin-right: 6px;
+    }
+    
+    .navbar-toggler{
+        margin-top: 10px;
+        float: right;
+    }
+    .clear-nav {
+        clear: both;
+    }
+
 
 
 }
@@ -19,13 +34,12 @@
 @media only screen and (max-width:760px) {
 
     /*--header--*/
-/*
+
     .text-box {
         padding-left: 20px;
         position: absolute;
         transform: translate(0%, 120%);
     }
-*/
 
     .text-box h1 {
         font-size: 20px;
@@ -36,30 +50,52 @@
     }
     
     /*--navbar--*/
-    .navbar-nav {
-        margin-right: -20px;
+   .nav-row {
+        padding: 10px 15px;
     }
+
     .navbar-nav li {
         font-size: 18px;
-        margin-right: 10px;
+        margin-right: 6px;
     }
     
+    .navbar-toggler{
+        margin-top: 10px;
+        float: right;
+    }
+    .clear-nav {
+        clear: both;
+    }
+
     /*--about us--*/
     .about-us {
-        height: 35vh;
+        height: 50vh;
     }
 
     .title {
-        margin: 0px 100px;
+        margin: 0px 70px;
         text-align: center;
     }
 
     .title p {
-        font-size: 18px;
+        font-size: 110%;
     }
 
     .item-photo img {
         transform: scale(1.25);
+    }
+    
+    /*--Business hour--*/
+    
+    .messenger{
+        font-size: 180%;
+    }
+    
+    /*--footer--*/
+    .footernav,
+    .copyright {
+        float: none;
+        text-align: center;
     }
 
 }
@@ -67,12 +103,12 @@
 
 /* small phone: 0 to 496px */
 
-@media only screen and (max-width:575px) {
+@media only screen and (max-width:576px) {
     /*--header--*/
     .text-box {
         padding-left: 20px;
         position: absolute;
-        transform: translate(0%, 85%);
+        transform: translate(0%, 55%);
     }
 
     .text-box h1 {
@@ -82,6 +118,7 @@
     .text-box h2 {
         font-size: 35px;
     }
+    
     /*--navbar--*/
     .nav-row {
         padding: 10px 15px;
@@ -96,6 +133,7 @@
         margin-top: 10px;
         float: right;
     }
+    
     .clear-nav {
         clear: both;
     }
@@ -103,7 +141,7 @@
 
     /*--about us--*/
     .about-us {
-        height: 35vh;
+        height: 45vh;
     }
 
     .title {

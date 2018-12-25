@@ -1,13 +1,24 @@
-div, form, h1, h2, h3, h4, h5, h6, li, p, ul {
+div,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p,
+ul {
     margin: 0;
     padding: 0;
 }
 
-html, body {
-/*    padding-top: 70px;*/
+html,
+body {
+    /*    padding-top: 70px;*/
     font-size: 18px;
     font-weight: 300;
-/*    font-family: "Encode Sans Condensed", "Noto Sans TC", sans-serif;*/
+    /*    font-family: "Encode Sans Condensed", "Noto Sans TC", sans-serif;*/
     font-family: 'Open Sans', "Noto Sans TC", sans-serif;
     background: url('../img/leaves-pattern.png') center center;
 }
@@ -27,7 +38,7 @@ h2 {
     font-weight: 600;
 }
 
-h1:after{
+h1:after {
     display: block;
     background-color: #e03d44;
     content: "";
@@ -36,12 +47,12 @@ h1:after{
     margin-top: 15px;
 }
 
-h3{
+h3 {
     font-size: 30px;
     letter-spacing: 1px;
 }
 
-h3:after{
+h3:after {
     height: 2px;
     background-color: #E03D44;
     content: "";
@@ -50,13 +61,13 @@ h3:after{
     display: block;
 }
 
-h4{
+h4 {
     font-size: 18px;
     letter-spacing: 1px;
 }
 
-h4:after{
-    display: block;
+h4:after {
+    display:block;
     height: 2px;
     background-color: #e03d44;
     content: "";
@@ -64,19 +75,19 @@ h4:after{
     margin-top: 18px;
 }
 
-p{
+p {
     font-size: 20px;
     line-height: 1.9;
     letter-spacing: 0.5px;
 }
 
-.text-box{
+.text-box {
     color: #fff;
     position: absolute;
-    transform: translate(10%, 100%);
+    transform: translate(10%, 80%);
 }
 
-.btn:link{
+.btn:link {
     margin-top: 20px;
     font-weight: 100;
     border-radius: 8px;
@@ -84,22 +95,23 @@ p{
 }
 
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited {
     background-color: #e03d44;
     color: #fff;
 }
 
-.btn-full:hover{
-    background-color: rgba(224,61,68,0.9);
+.btn-full:hover {
+    background-color: rgba(224, 61, 68, 0.9);
 }
 
 
 /*---HEADER---*/
 
-header{
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(img/adult-art-beautiful-413880.jpg);
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(img/adult-art-beautiful-413880.jpg);
     height: 98vh;
-    background-size: cover;/*讓背景圖自動填滿*/
+    background-size: cover;
+    /*讓背景圖自動填滿*/
     background-position: center;
     background-attachment: fixed;
 }
@@ -108,7 +120,7 @@ header{
 
 /*--main nav--*/
 
-.nav-row{
+.nav-row {
     padding: 0 30px;
 }
 
@@ -120,19 +132,20 @@ header{
     margin-top: 12px;
 }
 
-.navbg{
-    background-color: rgba(42,43,47,1);
+.navbg {
+    background-color: rgba(42, 43, 47, 1);
 }
 
-.navbar-nav{
+.navbar-nav {
     float: right;
     font-weight: 200;
     text-align: right;
     line-height: 60px;
 }
- 
+
 .navbar-nav li {
     margin-right: 20px;
+
 }
 
 .navbar-nav li a {
@@ -153,17 +166,22 @@ header{
 
 
 /*---ABOUT US---*/
-.about-us{
+.about-us {
     margin-bottom: 30px;
-    
+
 }
 
-.title-row{
+.title-row {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
-.title{
+.title-2nd-row {
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.title {
     margin: 0 80px;
 }
 
@@ -172,7 +190,7 @@ header{
     text-align: left;
 }
 
-.dividerCenter{
+.dividerCenter {
     height: 2px;
     width: 120px;
     background-color: #e03d44;
@@ -185,36 +203,36 @@ header{
 
 /*---MENU---*/
 
-.menu-overview{
+.menu-overview {
     height: auto;
 }
 
-.menu-overview-padding{
+.menu-overview-padding {
     padding: 0;
 }
 
-.boxImage1{
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)), url(img/boxImage1.jpg);
+.boxImage1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(img/boxImage1.jpg);
     height: 465px;
     background-size: cover;
     background-position: 50% 50%;
 }
 
-.boxImage2{
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)), url(img/boxImage2.jpg);
+.boxImage2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(img/boxImage2.jpg);
     height: 465px;
     background-size: cover;
     background-position: 50% 50%;
 }
 
-.boxImage3{
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)), url(img/boxImage3.jpg);
+.boxImage3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(img/boxImage3.jpg);
     height: 465px;
     background-size: cover;
     background-position: 50% 50%;
 }
 
-.imageBoxesTitle{
+.imageBoxesTitle {
     position: absolute;
     bottom: 40px;
     padding: 24px;
@@ -233,7 +251,7 @@ header{
 }
 
 .bgBlack {
-    background-color: rgba(42,43,47,1);
+    background-color: rgba(42, 43, 47, 1);
     width: 100%;
     height: 465px;
 }
@@ -252,40 +270,40 @@ header{
     margin-top: 10px;
 }
 
-.location{
+.location {
     margin-top: 20px;
 }
 
-.locBtn{
+.locBtn {
     line-height: 1;
     padding: 12px 12px;
     letter-spacing: 2px;
     font-size: 14px;
-    background-color: rgba(255,255,255,1);
-    color: rgba(42,43,47,1);
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(42, 43, 47, 1);
     border-radius: 8px;
 }
 
-.locBtn:hover{
+.locBtn:hover {
     text-decoration: none;
-    color: rgb(239,36,106);
+    color: rgb(239, 36, 106);
     transition: 0.4s;
 }
 
 /*--Main Menu--*/
 
-.menu-details{
-    background-image: linear-gradient(rgba(255,200,125,0.4),rgba(255,255,255,0.6)), url(img/MainMenu.jpg);
+.menu-details {
+    background-image: linear-gradient(rgba(255, 200, 125, 0.4), rgba(255, 255, 255, 0.6)), url(img/MainMenu.jpg);
     height: 600px;
     background-size: cover;
-    background-position:50% 50%;
+    background-position: 50% 50%;
 }
 
-.main-menu-margin{
+.main-menu-margin {
     margin: 70px 0px 60px 20px;
 }
 
-.upper-row{
+.upper-row {
     padding-top: 20px;
     margin: 0 auto;
 }
@@ -294,19 +312,19 @@ header{
     margin: 0 auto;
 }
 
-.list-custom{
-    list-style-type:none;
+.list-custom {
+    list-style-type: none;
     margin: 0;
     font-size: 14px;
     font-weight: 400;
     margin: 20px;
 }
 
-.list-custom li{
+.list-custom li {
     display: inline;
 }
 
-.menu-item{
+.menu-item {
     padding-left: 20px;
     padding-bottom: 10px;
 }
@@ -316,73 +334,73 @@ header{
     padding-bottom: 10px;
     font-size: 16px;
     font-weight: 600;
-    color: rgba(42,43,47,1);
+    color: rgba(42, 43, 47, 1);
 }
 
-.smallText{
+.smallText {
     font-size: 13.5px;
     opacity: 0.8;
 }
 
 /*--Menu Images--*/
 
-.item-photo{
+.item-photo {
     background-color: #000;
     overflow: hidden;
 }
 
-.item-photo img{
+.item-photo img {
     opacity: 0.7;
     width: 100%;
     transform: scale(1.15);
     transition: opacity 0.5s;
 }
 
-.item-photo img:hover{
+.item-photo img:hover {
     opacity: 1;
 }
 
 /*---testimonial---*/
 
-/*.testimonialImg{
+.testimonialImg {
     background: url(img/home-header.jpg);
-    background-size:cover;
-    background-position:center;
-}*/
+    background-size: cover;
+    background-position: center;
+}
 
-.bgWhite{
+.bgWhite {
     background-color: #fff;
     height: auto;
 }
 
-.testi-icon{
+.testi-icon {
     width: 70px;
     border-radius: 60%;
 }
 
-.testi-icon:hover{
+.testi-icon:hover {
     transform: scale(1.15);
     transition: 0.4s;
 }
 
-.testi-title{
+.testi-title {
     font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
 }
 
-.testi-title span{
+.testi-title span {
     font-size: 18px;
     display: block;
     font-weight: 400;
-    color: rgba(42,43,47,0.8);
+    color: rgba(42, 43, 47, 0.8);
 }
 
-.testi-info p{
+.testi-info p {
     padding-top: 8px;
 }
 
-.box{
+.box {
     margin-left: 10px;
     margin-top: 70px;
 }
@@ -390,71 +408,126 @@ header{
 
 /*--Contact Us--*/
 
-.messenger{
+.messenger,
+.messenger-center{
+    margin: 20px;
+}
+
+.messenger-center{
+    color: #d0d0d0;
+    text-align: center;
+}
+
+.messenger-center h4{
+    font-size: 110%;
+    text-shadow: 2px 2px #555;
+    color: #fff;
+    font-weight: 600;
     margin: 30px;
 }
 
-.bgColor{
-    height: 480px;
-    background-color: #e34f31;
+.messenger-center h4:after {
+    display: none;
 }
 
-.bgColor h3,
-.bgColor p{
-    color: rgba(255,255,255,1);
+.messenger-center p {
+    font-size: 90%;
 }
 
-.bgColor h3:after{
+.bgColor-Orange {
+    height: 350px;
+    background-color: #de4e31;
+}
+
+.bgColor-Orange h3,
+.bgColor-Orange p {
+    color: rgba(255, 255, 255, 1);
+}
+
+.bgColor-Orange h3:after {
     background-color: #FFF;
 }
+
+.bgColor-Black {
+    background-color: rgba(42, 43, 47, 1);
+    width: 100%;
+    height: 350px;
+}
+
+.bgColor-Black p,
+.bgColor-Black h3 {
+    color: #FFF;
+}
+
 
 .bgWhite {
     height: 480px;
     background-color: #FFF;
 }
 
-.mail:hover{
-    color: rgba(224,66,19,0.9);
+.mail:hover {
+    color: rgba(224, 66, 19, 0.9);
     transition: 0.8s;
 }
 
-.map{
-    width: 106%;
-    height: 480px;
+/*--Google Map--*/
+#googleMap {
+    width: 100%;
+    height: 450px;
     margin-left: -13px;
+    z-index: 9999;
+}
+
+
+.google-box h3 {
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 130%;
+}
+
+.google-box h3:after {
+    display: none;
+}
+
+.google-box p {
+    font-size: 110%;
+    letter-spacing: 0;
+    margin-top: 10px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
 }
 
 /*--footer--*/
 
-.footer-bg{
-    background-color: rgba(42,43,47,0.9);
-    color: rgba(255,255,255,0.8);
+.footer-bg {
+    background-color: rgba(42, 43, 47, 0.9);
+    color: rgba(255, 255, 255, 0.8);
 }
 
-.social-media{
+.social-media {
     margin-top: 4px;
     font-size: 15px;
 }
 
-.social-media li{
+.social-media li {
     display: block;
     margin-top: 10px;
 }
 
 .social-media li a {
     text-decoration: none;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     transition: color 0.4s;
 }
 
-.social-media a:hover{
+.social-media a:hover {
     color: #4d7be0;
 }
 
 .ion-logo-facebook,
 .ion-logo-twitter,
 .ion-logo-googleplus,
-.ion-logo-instagram{
+.ion-logo-instagram {
     font-size: 20px;
     margin: 9px;
 }
@@ -467,17 +540,17 @@ header{
 
 /*--footer--*/
 
-.copyright{
-    background-color: rgb(38,39,46);
+.copyright {
+    background-color: rgb(38, 39, 46);
 }
 
 .copyright a,
-.copyright p{
+.copyright p {
     margin: 0 10px;
     line-height: 50px;
     font-size: 14px;
     text-decoration: none;
-    color: rgba(255,255,255,0.4);
+    color: rgba(255, 255, 255, 0.4);
 }
 
 /*--footer--*/
@@ -486,21 +559,3 @@ header{
 }
 
 
-/*--animate--*/
-
-.js--wp-1,
-.js--wp-2,
-.js--wp-3,
-.js--wp-4,
-.js--wp-5 {
-    opacity: 0;
-    animation-duration: 1s;
-}
-
-.js--wp-1.animated,
-.js--wp-2.animated,
-.js--wp-3.animated,
-.js--wp-4.animated,
-.js--wp-5.animated {
-    opacity: 1;
-}
