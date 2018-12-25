@@ -69,11 +69,11 @@
 
     /*--about us--*/
     .about-us {
-        height: 50vh;
+        height: 48vh;
     }
 
     .title {
-        margin: 0px 70px;
+        margin: 0px 50px;
         text-align: center;
     }
 
@@ -141,12 +141,14 @@
 
     /*--about us--*/
     .about-us {
-        height: 45vh;
+        font-size: 90%;
+        height: 52vh;
     }
 
     .title {
-        margin: 0px 30px;
+        margin: 0px 10px;
         text-align: center;
+        
     }
 
     .testimonialImg {
