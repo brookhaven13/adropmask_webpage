@@ -363,7 +363,7 @@ header {
 /*---testimonial---*/
 
 .testimonialImg {
-    background: url(img/home-header.jpg);
+    /*--background: url(img/home-header.jpg);--*/
     background-size: cover;
     background-position: center;
 }
